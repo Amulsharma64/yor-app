@@ -1,13 +1,12 @@
-import Image from "next/image";
+import Header from "./components/header/Header";
 
-export default function Home() {
-  return (
-   <div className="container">
-    1. Nextjs 
-    2. use App Router 
-    3. use Zustand Store 
-    4. Tailwind css with Headless UI 
-    5. Propper State management
-   </div>
-  );
-}
+
+      export default function Home() {
+        return (
+          <div>
+            <Header/>
+            {/* Rest of your email UI */}
+          </div>
+        );
+      }
+      
